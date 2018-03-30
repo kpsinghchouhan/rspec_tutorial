@@ -18,6 +18,6 @@ class Card
   end
 
   def ==(other)
-    true
+    rank == other.rank && suit == other.suit
   end
 end
